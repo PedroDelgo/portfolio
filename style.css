@@ -7,6 +7,7 @@ header {
     display: flex;
     flex-direction: row;
     position: fixed;
+    z-index: 100;
     width: 100vw;
     height: 7vh;
     justify-content: space-between;
@@ -23,8 +24,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-inline: 20px;
-
-    
  }
 
 .logo {
@@ -34,7 +33,32 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.home {
+    width: 100vw;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+
+    background-color: blue;
+}
+
+.home h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: yellow;
+}
+
+.home img{
+    width: 50%;
+    margin-inline: 25%;
 
     
 }
-
